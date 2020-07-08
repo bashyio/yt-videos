@@ -6,7 +6,7 @@ const SearchBar = ({ onFormSubmit }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       onFormSubmit(term);
-    }, 500);
+    }, 1000);
 
     return () => {
       clearTimeout(timer);
@@ -15,7 +15,7 @@ const SearchBar = ({ onFormSubmit }) => {
 
   return (
     <div className="search-bar ui segment">
-      <form className="ui form">
+      <form className="ui form" onSubmit={(e) => e.preventDefault()}>
         <div className="field">
           <label htmlFor="search">Search For a Video</label>
           <input
