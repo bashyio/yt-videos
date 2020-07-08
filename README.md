@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-It uses free YouTube Api so there is a limit to the number of requests that can be made.
+It uses the free YouTube Api so there is a limit to the number of requests that can be made daily.
 
 Test:
 https://yt-videos.netlify.app/

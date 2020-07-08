@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./SearchBar.css";
 
 const SearchBar = ({ onFormSubmit }) => {
   const [term, setTerm] = useState("");
@@ -25,7 +26,7 @@ const SearchBar = ({ onFormSubmit }) => {
             onChange={(e) => {
               setTerm(e.target.value);
             }}
-            placeholder="Type and hit enter..."
+            placeholder="Type here..."
           />
         </div>
       </form>

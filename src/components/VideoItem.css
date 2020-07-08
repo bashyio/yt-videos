@@ -1,0 +1,21 @@
+.video-item {
+  display: flex !important;
+  align-items: center !important;
+  cursor: pointer;
+  background: #141D29;
+  color: #fff;
+  padding: 10px !important;
+  transition: background.3s;
+}
+
+.video-item:hover,
+.video-item:focus {
+  background: #111A22;
+  color: #fff;
+}
+
+.video-item.item img {
+  width: 30%;
+  max-width: 150px;
+  border-radius: 3px;
+}
