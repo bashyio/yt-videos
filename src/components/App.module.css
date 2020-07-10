@@ -4,14 +4,22 @@ body {
   color: #BDC7D3;
 }
 
-#root {
+:global(#root) {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.ui.container {
+:global(.ui.segment) {
+  background: #141D29 !important;
+}
+
+:global(.ui.segment .header) {
+  color: #BDC7D3 !important;
+}
+
+.uiContainer {
   width: 100%;
   max-width: 1200px !important;
   padding: 20px;

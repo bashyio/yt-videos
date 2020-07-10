@@ -1,0 +1,31 @@
+.header {
+  color: #BDC7D3 !important;
+  transition: .5s !important;
+}
+
+.videoItem:hover .header,
+.videoItem:focus .header {
+  color: #6D84A1 !important;
+}
+
+.videoItem {
+  display: flex !important;
+  align-items: center !important;
+  cursor: pointer;
+  background: #141D29 !important;
+  color: #fff !important;
+  padding: 10px !important;
+  transition: background.3s;
+}
+
+.videoItem:hover,
+.videoItem:focus {
+  background: #111A22 !important;
+  color: #fff !important;
+}
+
+.videoItem img {
+  width: 30% !important;
+  max-width: 150px !important;
+  border-radius: 3px !important;
+}

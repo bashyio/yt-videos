@@ -1,0 +1,20 @@
+.searchBar {
+  background: #141D29 !important;
+  color: #BDC7D3 !important;
+}
+
+.searchBar input {
+  background: #111A22 !important;
+  color: #BDC7D3 !important;
+  transition: .5s !important;
+}
+
+.searchBar label {
+  color: #BDC7D3 !important;
+}
+
+.searchBar input:focus,
+.searchBar input:hover {
+  background: #182335 !important;
+  color: #BDC7D3 !important;
+}

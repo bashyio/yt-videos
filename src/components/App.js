@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./App.css";
+import styles from "./App.module.css";
 import SearchBar from "./SearchBar";
 import VideoList from "./VideoList";
 import VideoDetail from "./VideoDetail";
@@ -14,7 +14,7 @@ const App = () => {
   }, [videos]);
 
   return (
-    <div className="ui container">
+    <div className={`${styles.uiContainer} ui container`}>
       <SearchBar onFormSubmit={search} />
       <div className="ui stackable column grid">
         <div className="ui row">

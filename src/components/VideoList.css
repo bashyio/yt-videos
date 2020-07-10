@@ -1,9 +1,0 @@
-.ui.list.video-list .header {
-  color: #BDC7D3;
-  transition: .5s;
-}
-
-.ui.list.video-list .video-item:hover .header,
-.ui.list.video-list .video-item:focus .header {
-  color: #6D84A1;
-}
